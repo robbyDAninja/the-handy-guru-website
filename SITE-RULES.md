@@ -1,4 +1,4 @@
-**Version:** 1.0 · **Updated:** October 21, 2026
+**Version:** 1.1 · **Updated:** October 21, 2026
 
 # Rules for maintaining The Handy Guru site
 
@@ -7,9 +7,9 @@ Read README.md, START-HERE.md and this file before changing source.
 ## Keep the site small
 
 - This is a plain three-page website: Home, Services and Contact, plus a custom 404. Cloudflare Pages serves only `public/`. Keep the documented no-build `exit 0` / output `public` settings. Do not add a framework, Worker, Pages Function, database, custom CI, deployment token, paid plan or other integration during an ordinary content edit.
-- Preserve the navy/brass/light palette, large readable type, simple wordmark and clear call/text/estimate paths. Keep mobile navigation, keyboard focus, reduced-motion support and the page routes.
+- Preserve the navy/gold craft-sign identity, teal/plum accents, refined upper-left logo, readable type and clear call/text/estimate paths. Keep mobile navigation, keyboard focus, reduced-motion support and the page routes.
 - Preserve Bodhi Campbell / The Handy Guru identity. Source business facts came from the existing site at thehandyguru.com; owner confirmation remains the launch authority. Do not invent reviews, star ratings, insurance/license claims, years of experience, guarantees, response times, prices or permission to perform a specific trade.
-- Generated imagery is illustrative. Never describe it as Bodhi, his team or his actual job. Use owner-approved original photos for real people and work. Keep asset provenance up to date.
+- Generated imagery must stay clearly identified as generated. The current portraits use identified public photos of Bodhi as likeness references; owner likeness approval is still pending. Preserve the captions and do not present these as original photos or completed jobs. Use owner-approved original photos when available. Keep provenance current; never derive a new face from the old inaccurate cartoon.
 
 ## Own the correct accounts
 
@@ -46,4 +46,5 @@ Version/date/changelog every Markdown edit and update INDEX.md alongside relevan
 
 | Version | Date | Change |
 |---|---|---|
+| 1.1 | 2026-10-21 | Recorded approved visual revision, likeness reference requirements and generated-image captions. |
 | 1.0 | 2026-10-21 | Initial website and owner handoff. |
