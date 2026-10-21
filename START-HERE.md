@@ -1,4 +1,4 @@
-**Version:** 1.1 · **Updated:** October 21, 2026
+**Version:** 1.2 · **Updated:** October 21, 2026
 
 # Bodhi, start here
 
@@ -88,7 +88,7 @@ If you need to undo the cutover, restore the saved previous `www`, bare-domain a
 
 ## 6. Review and launch
 
-Confirm your phone/email, towns, service scope and the free-estimate wording. The old unverified ratings/testimonials/licensing claims were omitted. Review the refined logo and whether the photo-referenced generated portraits actually look like you. They are generated illustrations, not original photos or documented jobs. Approve the draft or supply original photos you have permission to publish. [ASSETS.md](ASSETS.md) explains the references and replacement.
+Confirm your phone/email, towns, service scope and the free-estimate wording. The old unverified ratings/testimonials/licensing claims were omitted. Your existing badge is retained. Review whether the photo-referenced generated portraits actually look like you and feel welcoming, and whether the final site fits your existing brand. They are generated illustrations, not original photos or documented jobs. Approve the draft or supply original photos you have permission to publish. [ASSETS.md](ASSETS.md) explains the references and replacement.
 
 When you approve the site and the final-domain inquiry test has reached your inbox:
 
@@ -121,5 +121,6 @@ Provider steps checked October 21, 2026. Bodhi’s own account setup, actual Pag
 
 | Version | Date | Change |
 |---|---|---|
+| 1.2 | 2026-10-21 | Clarified that existing approved badge is retained and new likeness/site draft needs review. |
 | 1.1 | 2026-10-21 | Added explicit owner review of the refined logo and photo-referenced generated likeness. |
 | 1.0 | 2026-10-21 | Initial website and owner handoff. |

@@ -1,22 +1,32 @@
-**Version:** 1.2 · **Updated:** October 21, 2026
+**Version:** 1.3 · **Updated:** October 21, 2026
 
 # Images and source facts
 
 ## Current visual draft
 
-Robby requested a warm, flattering "awesome picture day" portrayal: welcoming smile, rested eyes, residential home-help setting, colorful shirt and the van from the original brand concept. The workshop drafts did not convey that essence and are superseded. Bodhi still needs to approve the likeness, refined logo and final design before launch. All three new images were created October 21, 2026 with the built-in imagegen tool and optimized into local WebP files. System fonts are used; no photo or font CDN is needed.
+Robby requested a warm, flattering "awesome picture day" portrayal: welcoming smile, rested eyes, residential home-help setting, colorful shirt and the van from the original brand concept. The workshop drafts did not convey that essence and are superseded. The existing badge is retained as an already-approved brand asset, per Robby. Bodhi still needs to approve the new generated likeness and final website before launch. The two scene images were generated October 21, 2026 with the built-in imagegen tool and optimized into local WebP files. The header/footer badge is the existing website asset, resized and compressed only. System fonts are used; no photo or font CDN is needed.
 
 | Asset | Provenance |
 |---|---|
 | `public/assets/bodhi-portrait.webp` | Flattering photo-referenced welcome portrait at a residential entrance with an illustrative branded van; not an original photograph of Bodhi or his actual van. |
 | `public/assets/bodhi-home-help.webp` | Matching generated scene of help with a residential door handle; not a documented customer job or his actual tools. |
-| `public/assets/handy-guru-logo.webp` | Transparent refinement of the original navy/gold craft-sign badge. The inaccurate cartoon face is replaced by a hammer/heart emblem. |
+| `public/assets/handy-guru-logo.webp` | The original existing circular badge, with its illustrated character, tools and lettering intact. Web export only: 384×384 WebP from the existing 1254×1254 source, no generative redraw. |
 
-The real references are the openly displayed [OM Shack instructor photo explicitly labeled Bodhi Campbell](https://www.omshack.com/meet-the-om-shack-team) and the **public profile thumbnail only** of [@the_singed_sage](https://www.instagram.com/the_singed_sage/), linked from [Bodhi's own About page](https://www.thebodhispot.com/about.html). Private posts were not accessed. The old cartoon supplied welcoming pose, residential/van context and shirt-color direction only, never facial identity. The refined logo was supplied for the illustrative van branding. Reference originals are excluded from this public repository; public availability does not establish a license to redistribute those original photos.
+The real references are the openly displayed [OM Shack instructor photo explicitly labeled Bodhi Campbell](https://www.omshack.com/meet-the-om-shack-team) and the **public profile thumbnail only** of [@the_singed_sage](https://www.instagram.com/the_singed_sage/), linked from [Bodhi's own About page](https://www.thebodhispot.com/about.html). Private posts were not accessed. The old cartoon supplied welcoming pose, residential/van context and shirt-color direction only, never facial identity. The van decal in the welcome image was subsequently corrected to reproduce the existing circular badge. This is an illustrative rendering, while the header/footer use the original asset itself. Reference originals are excluded from this public repository; public availability does not establish a license to redistribute those original photos.
 
 The reference thumbnail is 150×150 and the studio photo is 890×677; fine facial detail is limited by source resolution. Whether the output looks like Bodhi remains a human judgment. Page captions identify the generated images. Keep that distinction accurate.
 
-## Current residential image prompts
+## Existing badge restored
+
+The current logo comes from the [existing Handy Guru website asset](https://thehandyguru.com/assets/ChatGPT%20Image%20Jun%2018,%202026%20at%2007_33_06%20PM.png). The source SHA-256 is `2f1e69e84cc733c7c1637ed1c6d44403bd5d6bb8eeeb2a04a6f3f5680988bbc9`. Its composition, portrait, tools, lettering and taglines were retained; only web export sizing/compression changed. The unselected hammer/heart logo redesign is no longer used. Existing assets and prior approved decisions are the baseline, with targeted improvements rather than a rebrand.
+
+The existing badge remains a stylized brand mark; it is not used as evidence of Bodhi's facial appearance. The new portrait still uses the real public photo references.
+
+### Van decal correction — exact built-in imagegen prompt
+
+> Use case: precise-object-edit. Edit image 1 ONLY to restore the existing business branding on the van. Image 1 is the current generated warm welcome portrait at a residence. Image 2 is Bodhi's existing approved circular Handy Guru badge/logo. Replace the invented hammer-and-heart van decal in image 1 with a small faithful reproduction of the full existing circular badge from image 2, naturally printed as a decal on the white van side panel, correctly scaled and in perspective. Retain the badge's original illustrated character, tools, navy/gold colors and lettering; do not design another logo. The badge should be subordinate to the portrait and softly focused consistently with the van. Keep Bodhi's exact face, smile, eyes, age, hair, shirt pattern/colors, jewelry, open hand, tool bag, body proportions, blue door, garden, lighting, van position and entire composition otherwise unchanged. No new objects, no new branding, no headline. This is a narrow background-decal correction, not a new portrait or logo design.
+
+## Residential image generation history
 
 Built-in imagegen was used. The real photos remain the identity references. The original character supplies brand/context direction; the generated welcome image supplies wardrobe, expression and setting continuity to the companion image.
 
@@ -48,7 +58,7 @@ Inputs: same two actual photographs, then the generated portrait for wardrobe/se
 
 > Create a second natural editorial website image for The Handy Guru, consistent with supplied reference 3 (the newly generated portrait). References 1 and 2 are the actual public photos of Bodhi Campbell and are the identity authority; reference 3 is ONLY continuity for clothing, warm daylight and setting. Preserve this specific man's facial proportions, age, slightly tousled gray-brown swept-back hair, short white beard and mustache. Do not turn him into a generic older handyman or use an oversized beard. Landscape 3:2 composition in a modest bright workshop beside a porch. Medium shot, Bodhi is on the right two thirds of the frame, standing comfortably at a wooden bench, looking down with a gentle relaxed expression while holding a small plain wooden offcut flat with one hand and marking it lightly with a pencil in the other. A mundane workbench moment, not construction or a customer job. Hands anatomically correct and relaxed, five fingers per hand, correct pencil grip, exactly two arms. He wears the same restrained teal/navy/plum woven plaid cotton shirt, sleeves rolled, casual functional clothes. Left third has the bench, one unbranded closed tape measure and soft green outdoor foliage in the background. Natural aging, lifelike skin, neutral skin color, warm wood and navy doorway, soft side daylight, unretouched professional local-business photography. Believable tools and material scale, simple scene, no floating parts. The face remains readable in three-quarter view with enough detail to recognize the reference. No other people, no text, logos, watermarks, badges, van, tool belt, elaborate construction, visible address or client. No artificial cartoon, painterly outlines, plastic skin, overly cinematic grading or exaggerated grin. This is generated illustration based on photo references and must not imply a documented completed job.
 
-## Logo refinement — unchanged
+## Earlier logo redesign — retired
 
 ### Exact prompt
 
@@ -85,6 +95,7 @@ The final prompt, using the built-in tool (not CLI/API):
 
 | Version | Date | Change |
 |---|---|---|
+| 1.3 | 2026-10-21 | Restored original badge in header/footer and existing badge direction on illustrated van; redesign retired. |
 | 1.2 | 2026-10-21 | Replaced stern workshop imagery with flattering residential welcome and home-help scenes; recorded exact revision prompts. |
 | 1.1 | 2026-10-21 | Recorded public photo references, generated portrait family, refined logo, exact prompts and pending likeness review. |
 | 1.0 | 2026-10-21 | Initial website and owner handoff. |
