@@ -270,6 +270,26 @@ p {
   display: block;
   border-radius: 92px 2px 0 0;
 }
+.portrait-signature {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  background: #f4cb70;
+  color: var(--navy);
+  padding: 11px 15px;
+}
+.portrait-signature strong {
+  font:
+    700 26px/1.2 Rockwell,
+    Georgia,
+    serif;
+  letter-spacing: -0.03em;
+}
+.portrait-signature span {
+  font-size: 13px;
+}
 .hero-photo figcaption {
   font-size: 11px;
   line-height: 1.5;
@@ -277,27 +297,7 @@ p {
   padding: 10px 12px;
   background: var(--navy);
 }
-.portrait-label {
-  position: absolute;
-  bottom: 58px;
-  left: 15px;
-  z-index: 1;
-  color: var(--navy);
-  background: #f4cb70;
-  padding: 10px 18px;
-  border-left: 4px solid var(--navy);
-}
-.portrait-label strong {
-  display: block;
-  font:
-    700 26px/1.15 Rockwell,
-    Georgia,
-    serif;
-  letter-spacing: -0.03em;
-}
-.portrait-label span {
-  font-size: 13px;
-}
+
 .tagline {
   font:
     italic 20px/1.45 Georgia,
@@ -857,41 +857,14 @@ textarea:disabled {
     object-position: 50% 25%;
     border-top-left-radius: 56px;
   }
-  .portrait-label {
-    bottom: 53px;
-    left: 10px;
-    padding: 8px 13px;
-  }
-  .portrait-label strong {
-    font-size: 23px;
-  }
+
   .hero-photo figcaption {
     font-size: 11px;
   }
   .intro {
     max-width: 580px;
   }
-  .portrait-label {
-    position: absolute;
-    bottom: 58px;
-    left: 15px;
-    z-index: 1;
-    color: var(--navy);
-    background: #f4cb70;
-    padding: 10px 18px;
-    border-left: 4px solid var(--navy);
-  }
-  .portrait-label strong {
-    display: block;
-    font:
-      700 26px/1.15 Rockwell,
-      Georgia,
-      serif;
-    letter-spacing: -0.03em;
-  }
-  .portrait-label span {
-    font-size: 13px;
-  }
+
   .tagline {
     font-size: 20px;
   }

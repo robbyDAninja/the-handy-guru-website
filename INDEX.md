@@ -1,4 +1,4 @@
-**Version:** 1.3 · **Updated:** October 21, 2026
+**Version:** 1.4 · **Updated:** October 21, 2026
 
 # Repository file index
 
@@ -17,8 +17,8 @@
 | public/app.js | Navigation and form UI |
 | public/form.js | Provider submission with honest success/error handling |
 | public/site-config.js | Public form key and preview flag |
-| public/assets/bodhi-portrait.webp | Photo-referenced generated portrait; likeness review pending |
-| public/assets/bodhi-workshop.webp | Matching generated workshop scene; not a documented job |
+| public/assets/bodhi-portrait.webp | Flattering generated residential welcome portrait with van; likeness review pending |
+| public/assets/bodhi-home-help.webp | Generated residential home-help scene; not a documented job |
 | public/assets/handy-guru-logo.webp | Refined transparent navy/gold logo |
 | public/assets/porch-tools.webp | Earlier illustrative still life retained as optional alternative |
 | public/_headers, robots.txt, sitemap.xml | Preview headers, indexing and canonical sitemap |
@@ -32,6 +32,7 @@
 
 | Version | Date | Change |
 |---|---|---|
+| 1.4 | 2026-10-21 | Replaced workshop imagery with residential welcome/home-help, preserving the logo and recording new prompts. |
 | 1.3 | 2026-10-21 | Updated owner roadmap for explicit likeness/logo review and registered the expanded asset provenance. |
 | 1.2 | 2026-10-21 | Added refined upper-left logo, colorful portrait-led design and documented generated image family. |
 | 1.1 | 2026-10-21 | Formatted website and helper source for readable owner edits; no content or deployment change. |

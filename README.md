@@ -1,4 +1,4 @@
-**Version:** 1.1 · **Updated:** October 21, 2026
+**Version:** 1.2 · **Updated:** October 21, 2026
 
 # The Handy Guru — your website and setup guide
 
@@ -19,7 +19,7 @@ The supplied site is a **review draft**: a visible preview notice and search-eng
 - Access to the current GoDaddy domain/DNS settings for the final connection.
 - Your review of the business wording, services, phone/email, and photos.
 
-The draft now includes a refined navy-and-gold logo and photo-referenced AI portraits. These are generated images, not original photographs of Bodhi or completed jobs. Bodhi still needs to approve the likeness and final design. See [ASSETS.md](ASSETS.md) for provenance and replacement instructions.
+The draft now includes a refined navy-and-gold logo and warm, flattering photo-referenced AI images at a residence, with the van from the original brand concept. These are generated images, not original photographs of Bodhi or completed jobs. Bodhi still needs to approve the likeness and final design. See [ASSETS.md](ASSETS.md) for provenance and replacement instructions.
 
 ## For someone helping with the files
 
@@ -40,5 +40,6 @@ No dependency installation is needed. Open the local address printed by the prev
 
 | Version | Date | Change |
 |---|---|---|
+| 1.2 | 2026-10-21 | Updated imagery to warm, flattering residential welcome and home-help scenes. |
 | 1.1 | 2026-10-21 | Added photo-referenced portrait family and refined logo; owner likeness/design approval remains pending. |
 | 1.0 | 2026-10-21 | Initial website and owner handoff. |
