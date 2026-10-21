@@ -1,4 +1,4 @@
-**Version:** 1.3 · **Updated:** October 21, 2026
+**Version:** 1.4 · **Updated:** October 21, 2026
 
 # The Handy Guru — your website and setup guide
 
@@ -21,6 +21,8 @@ The supplied site is a **review draft**: a visible preview notice and search-eng
 
 The draft now includes the existing circular Handy Guru badge, reused without redesign, and warm, flattering photo-referenced AI images at a residence, with the van from the original brand concept. These are generated images, not original photographs of Bodhi or completed jobs. Bodhi still needs to approve the likeness and final design. See [ASSETS.md](ASSETS.md) for provenance and replacement instructions.
 
+The homepage includes a simple “What needs a little help?” guide: a repair, a to-do list, or help for a parent. Each choice leads to the relevant estimate option. A brief welcome animation respects reduced-motion preferences. Everything runs in the existing static files, with no extra accounts or dependencies.
+
 ## For someone helping with the files
 
 Read [SITE-RULES.md](SITE-RULES.md). Serve **only `public/`**. Cloudflare Pages settings: **None / main / build `exit 0` / output `public` / root blank**. No API secret is required for static hosting.
@@ -40,6 +42,7 @@ No dependency installation is needed. Open the local address printed by the prev
 
 | Version | Date | Change |
 |---|---|---|
+| 1.4 | 2026-10-21 | Added lightweight welcome motion and a service guide that carries the chosen service into the estimate page. |
 | 1.3 | 2026-10-21 | Restored original Handy Guru badge; existing approved assets are the design baseline. |
 | 1.2 | 2026-10-21 | Updated imagery to warm, flattering residential welcome and home-help scenes. |
 | 1.1 | 2026-10-21 | Added photo-referenced portrait family and refined logo; owner likeness/design approval remains pending. |

@@ -86,7 +86,8 @@
               >
             </div>
             <p class="quiet">
-              Have a short list? A small job? Let’s talk it through.
+              Have a short list? A small job?
+              <a href="#help-guide">Find a starting point.</a>
             </p>
           </div>
           <figure class="hero-photo">
@@ -112,56 +113,192 @@
           ><span>Property maintenance</span><span>Free estimates</span>
         </div>
       </div>
-      <section class="section">
+      <section
+        class="section"
+        id="help-guide"
+        data-help-guide
+        aria-labelledby="help-title"
+      >
         <div class="wrap">
           <div class="section-head">
-            <h2>For the things that<br />need doing.</h2>
+            <div>
+              <h2 id="help-title">What needs a little help?</h2>
+              <p class="help-intro">
+                Choose a starting point. We can talk through the details.
+              </p>
+            </div>
             <a class="text-link" href="/services">See all services</a>
           </div>
-          <div class="services-grid">
-            <article class="service-item">
-              <span class="service-symbol" aria-hidden="true">⌂</span>
-              <h3><a href="/services#interior">Interior repairs</a></h3>
-              <p>
-                Drywall patches, sticking doors, trim, shelves and the small
-                repairs you keep meaning to get to.
-              </p>
+          <div
+            class="help-choices"
+            data-help-controls
+            role="group"
+            aria-label="Choose the help you need"
+            hidden
+          >
+            <button
+              type="button"
+              data-help-choice="repair"
+              aria-pressed="true"
+              aria-controls="help-repair"
+            >
+              A repair
+            </button>
+            <button
+              type="button"
+              data-help-choice="list"
+              aria-pressed="false"
+              aria-controls="help-list"
+            >
+              My to-do list
+            </button>
+            <button
+              type="button"
+              data-help-choice="parent"
+              aria-pressed="false"
+              aria-controls="help-parent"
+            >
+              Help for a parent
+            </button>
+          </div>
+          <p class="visually-hidden" role="status" data-help-announcement></p>
+          <div class="help-panels">
+            <article
+              class="help-panel"
+              id="help-repair"
+              data-help-panel="repair"
+              aria-labelledby="repair-title"
+            >
+              <div>
+                <h3 id="repair-title">One thing that needs fixing.</h3>
+                <p>
+                  A sticking door, damaged trim or a shelf that needs attention.
+                  Let’s start with what’s bothering you.
+                </p>
+                <ul class="help-examples">
+                  <li>Doors &amp; hardware</li>
+                  <li>Drywall &amp; trim</li>
+                  <li>Shelves &amp; small repairs</li>
+                </ul>
+              </div>
+              <div class="help-next">
+                <p>A short description is a good place to start.</p>
+                <a
+                  class="button"
+                  href="/contact?service=repair#estimate-request"
+                  >Talk about a repair</a
+                >
+                <a class="text-link" href="/services#interior"
+                  >Explore interior repairs</a
+                >
+              </div>
             </article>
-            <article class="service-item">
-              <span class="service-symbol" aria-hidden="true">↳</span>
-              <h3><a href="/services#fixtures">Plumbing & fixtures</a></h3>
-              <p>
-                Faucets, toilet fixtures, caulking and the everyday details
-                around the kitchen and bathroom.
-              </p>
+            <article
+              class="help-panel"
+              id="help-list"
+              data-help-panel="list"
+              aria-labelledby="list-title"
+            >
+              <div>
+                <h3 id="list-title">Let’s work through your list.</h3>
+                <p>
+                  A few little jobs can add up. Bring your list and we’ll talk
+                  about what needs doing around the house.
+                </p>
+                <ul class="help-examples">
+                  <li>Furniture assembly</li>
+                  <li>Mounting &amp; hanging</li>
+                  <li>Everyday home upkeep</li>
+                </ul>
+              </div>
+              <div class="help-next">
+                <p>One small job or a handful of things to tackle.</p>
+                <a class="button" href="/contact?service=list#estimate-request"
+                  >Share your to-do list</a
+                >
+                <a class="text-link" href="/services#maintenance"
+                  >Explore general maintenance</a
+                >
+              </div>
             </article>
-            <article class="service-item">
-              <span class="service-symbol" aria-hidden="true">☀</span>
-              <h3><a href="/services#exterior">Exterior & yard</a></h3>
-              <p>
-                Fences, decks, screens, pressure washing and keeping the outside
-                of your home in shape.
-              </p>
-            </article>
-            <article class="service-item">
-              <span class="service-symbol" aria-hidden="true">+</span>
-              <h3>
-                <a href="/services#senior-home-safety">Senior home safety</a>
-              </h3>
-              <p>
-                Grab bars, handrails, easier-to-use handles and thoughtful help
-                around the home.
-              </p>
-            </article>
-            <article class="service-item">
-              <span class="service-symbol" aria-hidden="true">✓</span>
-              <h3><a href="/services#maintenance">General maintenance</a></h3>
-              <p>
-                Furniture assembly, mounting, weather stripping and a honey-do
-                list that needs a little attention.
-              </p>
+            <article
+              class="help-panel"
+              id="help-parent"
+              data-help-panel="parent"
+              aria-labelledby="parent-title"
+            >
+              <div>
+                <h3 id="parent-title">A little more ease at home.</h3>
+                <p>
+                  Looking out for a parent or loved one? Talk to Bodhi about
+                  practical changes and everyday help around their home.
+                </p>
+                <ul class="help-examples">
+                  <li>Grab bars &amp; handrails</li>
+                  <li>Easier-to-use handles</li>
+                  <li>Repairs &amp; regular upkeep</li>
+                </ul>
+              </div>
+              <div class="help-next">
+                <p>Start with the things that would make their day easier.</p>
+                <a
+                  class="button"
+                  href="/contact?service=parent#estimate-request"
+                  >Discuss help at home</a
+                >
+                <a class="text-link" href="/services#senior-home-safety"
+                  >Explore senior home help</a
+                >
+              </div>
             </article>
           </div>
+          <details class="all-services">
+            <summary>See the full service list</summary>
+            <div class="services-grid">
+              <article class="service-item">
+                <span class="service-symbol" aria-hidden="true">⌂</span>
+                <h3><a href="/services#interior">Interior repairs</a></h3>
+                <p>
+                  Drywall patches, sticking doors, trim, shelves and the small
+                  repairs you keep meaning to get to.
+                </p>
+              </article>
+              <article class="service-item">
+                <span class="service-symbol" aria-hidden="true">↳</span>
+                <h3><a href="/services#fixtures">Plumbing & fixtures</a></h3>
+                <p>
+                  Faucets, toilet fixtures, caulking and the everyday details
+                  around the kitchen and bathroom.
+                </p>
+              </article>
+              <article class="service-item">
+                <span class="service-symbol" aria-hidden="true">☀</span>
+                <h3><a href="/services#exterior">Exterior & yard</a></h3>
+                <p>
+                  Fences, decks, screens, pressure washing and keeping the
+                  outside of your home in shape.
+                </p>
+              </article>
+              <article class="service-item">
+                <span class="service-symbol" aria-hidden="true">+</span>
+                <h3>
+                  <a href="/services#senior-home-safety">Senior home safety</a>
+                </h3>
+                <p>
+                  Grab bars, handrails, easier-to-use handles and thoughtful
+                  help around the home.
+                </p>
+              </article>
+              <article class="service-item">
+                <span class="service-symbol" aria-hidden="true">✓</span>
+                <h3><a href="/services#maintenance">General maintenance</a></h3>
+                <p>
+                  Furniture assembly, mounting, weather stripping and a honey-do
+                  list that needs a little attention.
+                </p>
+              </article>
+            </div>
+          </details>
         </div>
       </section>
       <section class="section pale">

@@ -1,4 +1,4 @@
-**Version:** 1.3 · **Updated:** October 21, 2026
+**Version:** 1.4 · **Updated:** October 21, 2026
 
 # Rules for maintaining The Handy Guru site
 
@@ -12,6 +12,8 @@ Read README.md, START-HERE.md and this file before changing source.
 - Preserve Bodhi Campbell / The Handy Guru identity. Source business facts came from the existing site at thehandyguru.com; owner confirmation remains the launch authority. Do not invent reviews, star ratings, insurance/license claims, years of experience, guarantees, response times, prices or permission to perform a specific trade.
 - Portrait direction: Bodhi on an excellent picture day, warm and flattering, rested eyes and genuine smile, helping at a residence with the van supporting the story. Preserve real identity and age while avoiding stern expression, harsh under-eye shadows and a carpentry-workshop setting. Retain the colorful personal shirt and welcoming spirit of the original brand.
 - Generated imagery must stay clearly identified as generated. The current portraits use identified public photos of Bodhi as likeness references; owner likeness approval is still pending. Preserve the captions and do not present these as original photos or completed jobs. Use owner-approved original photos when available. Keep provenance current; never derive a new face from the old inaccurate cartoon.
+
+The homepage guide uses native buttons with pressed state, a screen-reader announcement and three existing service choices. Keep all three panels visible in the static HTML and hide controls until JavaScript initializes; direct service/contact links and the native full-list disclosure must remain usable without JavaScript. `help-guide.js` accepts only `repair`, `list` and `parent` query keys, selects an existing service option and never enables or submits the form. Keep the one-time welcome animation inside the no-preference motion query; preserve reduced-motion overrides.
 
 ## Own the correct accounts
 
@@ -38,6 +40,7 @@ Preserve preview banner and noindex settings until the owner approves content an
 - `public/index.html`, `services.html`, `contact.html`: website copy/layout.
 - `public/styles.css`: shared responsive styling.
 - `public/app.js`, `form.js`: menu, configuration and submission handling.
+- `public/help-guide.js`: homepage choice controls and allowlisted contact-service preselection.
 - `public/site-config.js`: public receiver key / visible preview flag.
 - `public/robots.txt`, `_headers`, `sitemap.xml`: preview, headers and final-host indexing.
 - `scripts/check.mjs`, `tests/contact.test.js`: source and contact-handling checks.
@@ -48,6 +51,7 @@ Version/date/changelog every Markdown edit and update INDEX.md alongside relevan
 
 | Version | Date | Change |
 |---|---|---|
+| 1.4 | 2026-10-21 | Documented accessible service-guide behavior, safe query selection and dependency-free motion. |
 | 1.3 | 2026-10-21 | Restored existing approved badge and made preserve-first asset handling explicit. |
 | 1.2 | 2026-10-21 | Recorded warm flattering residential brand portrayal and retired the workshop direction. |
 | 1.1 | 2026-10-21 | Recorded approved visual revision, likeness reference requirements and generated-image captions. |

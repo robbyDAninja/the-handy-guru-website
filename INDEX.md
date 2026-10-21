@@ -1,4 +1,4 @@
-**Version:** 1.5 · **Updated:** October 21, 2026
+**Version:** 1.7 · **Updated:** October 21, 2026
 
 # Repository file index
 
@@ -15,6 +15,7 @@
 | public/404.html | Missing-page fallback |
 | public/styles.css | Shared layout, type, colors and responsive behavior |
 | public/app.js | Navigation and form UI |
+| public/help-guide.js | Homepage service picker and allowlisted estimate-page service selection |
 | public/form.js | Provider submission with honest success/error handling |
 | public/site-config.js | Public form key and preview flag |
 | public/assets/bodhi-portrait.webp | Flattering generated residential welcome portrait with van; likeness review pending |
@@ -32,6 +33,8 @@
 
 | Version | Date | Change |
 |---|---|---|
+| 1.7 | 2026-10-21 | Updated owner README and maintenance rules for the verified lightweight enhancements. |
+| 1.6 | 2026-10-21 | Added welcome motion, accessible service picker, static fallback and service-selection handoff; assets preserved. |
 | 1.5 | 2026-10-21 | Registered restored original badge and preserve-first guidance; logo redesign retired. |
 | 1.4 | 2026-10-21 | Replaced workshop imagery with residential welcome/home-help, preserving the logo and recording new prompts. |
 | 1.3 | 2026-10-21 | Updated owner roadmap for explicit likeness/logo review and registered the expanded asset provenance. |

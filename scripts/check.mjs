@@ -22,7 +22,9 @@ for (const name of files.filter((x) => x.endsWith(".html"))) {
     errors.push(`${name}: viewport missing`);
   for (const [, attr, ref] of source.matchAll(/\b(href|src)="([^"]+)"/g)) {
     if (/^(https?:|tel:|mailto:|sms:|data:|#)/.test(ref)) continue;
-    const [pathname, hash] = ref.split("#");
+    const link = new URL(ref, "https://local.invalid/");
+    const pathname = link.pathname;
+    const hash = link.hash.slice(1);
     const path =
       pathname === "/"
         ? resolve(root, "index.html")
