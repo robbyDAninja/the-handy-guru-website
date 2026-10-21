@@ -1,0 +1,4 @@
+# Preview: remove the Disallow line only after the launch checklist passes.
+User-agent: *
+Disallow: /
+Sitemap: https://www.thehandyguru.com/sitemap.xml
