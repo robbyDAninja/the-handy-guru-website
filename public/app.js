@@ -1,9 +1,5 @@
 import { siteConfig } from "./site-config.js";
 import { formIsConfigured, submitEstimate } from "./form.js";
-import { setupHelpGuide, applyHelpSelection } from "./help-guide.js";
-
-setupHelpGuide();
-applyHelpSelection();
 
 const menu = document.querySelector(".menu-toggle");
 const nav = document.querySelector("#navigation");
