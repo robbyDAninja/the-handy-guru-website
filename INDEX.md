@@ -1,4 +1,4 @@
-**Version:** 1.8 · **Updated:** October 21, 2026
+**Version:** 1.9 · **Updated:** October 22, 2026
 
 # Repository file index
 
@@ -32,6 +32,7 @@
 
 | Version | Date | Change |
 |---|---|---|
+| 1.9 | 2026-10-22 | Registered approved-copy restoration, complete service descriptions, plain category links and optional-email form checks. |
 | 1.8 | 2026-10-21 | Removed service-guide module and contact handoff; retained only CSS motion/button polish and restored original service list. |
 | 1.7 | 2026-10-21 | Updated owner README and maintenance rules for the verified lightweight enhancements. |
 | 1.6 | 2026-10-21 | Added welcome motion, accessible service picker, static fallback and service-selection handoff; assets preserved. |

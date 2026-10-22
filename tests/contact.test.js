@@ -93,3 +93,28 @@ test("malformed provider response stays an error", async () => {
     /could not be confirmed/,
   );
 });
+
+test("phone request can be sent without optional email", async () => {
+  let body;
+  await submitEstimate(
+    { ...fields, email: " " },
+    key,
+    "token",
+    async (_, opts) => {
+      body = JSON.parse(opts.body);
+      return { ok: true, json: async () => ({ success: true }) };
+    },
+  );
+  assert.equal(body.phone, fields.phone);
+  assert.equal(Object.hasOwn(body, "email"), false);
+});
+test("missing required phone never transmits", async () => {
+  let called = false;
+  await assert.rejects(
+    submitEstimate({ ...fields, phone: "" }, key, "token", async () => {
+      called = true;
+    }),
+    /required fields/,
+  );
+  assert.equal(called, false);
+});

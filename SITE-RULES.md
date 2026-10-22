@@ -1,4 +1,4 @@
-**Version:** 1.5 · **Updated:** October 21, 2026
+**Version:** 1.6 · **Updated:** October 22, 2026
 
 # Rules for maintaining The Handy Guru site
 
@@ -9,11 +9,13 @@ Read README.md, START-HERE.md and this file before changing source.
 - This is a plain three-page website: Home, Services and Contact, plus a custom 404. Cloudflare Pages serves only `public/`. Keep the documented no-build `exit 0` / output `public` settings. Do not add a framework, Worker, Pages Function, database, custom CI, deployment token, paid plan or other integration during an ordinary content edit.
 - Preserve the navy/gold craft-sign identity, teal/plum accents, existing upper-left badge, readable type and clear call/text/estimate paths. Keep mobile navigation, keyboard focus, reduced-motion support and the page routes.
 - Start with the existing assets and decisions Bodhi has already worked through and approved, as confirmed by Robby. Reuse his badge, business name, navy/gold colors, colorful personal style and helper-heart tagline wherever they fit. Optimize sizing/compression for the web without redrawing the logo. Make targeted improvements to likeness, warmth, readability and functionality; do not treat the migration as a rebrand. A new logo requires a separate explicit request.
-- Preserve Bodhi Campbell / The Handy Guru identity. Source business facts came from the existing site at thehandyguru.com; owner confirmation remains the launch authority. Do not invent reviews, star ratings, insurance/license claims, years of experience, guarantees, response times, prices or permission to perform a specific trade.
+- Preserve Bodhi Campbell / The Handy Guru identity. Source business facts came from the existing site at thehandyguru.com; owner confirmation remains the launch authority. On October 22 Robby confirmed that Bodhi approved the original wording and verified its customer quotes, 5.0/100% ratings, license/insurance, tenure and guarantee claims. Preserve those source-backed claims as published. Do not invent additional reviews, ratings, credentials, response promises, prices or services.
 - Portrait direction: Bodhi on an excellent picture day, warm and flattering, rested eyes and genuine smile, helping at a residence with the van supporting the story. Preserve real identity and age while avoiding stern expression, harsh under-eye shadows and a carpentry-workshop setting. Retain the colorful personal shirt and welcoming spirit of the original brand.
 - Generated imagery must stay clearly identified as generated. The current portraits use identified public photos of Bodhi as likeness references; owner likeness approval is still pending. Preserve the captions and do not present these as original photos or completed jobs. Use owner-approved original photos when available. Keep provenance current; never derive a new face from the old inaccurate cartoon.
 
 Robby explicitly requested design enhancement rather than feature enhancement. Keep the service list visible and contact links straightforward. Do not reintroduce a service picker, quiz, URL-based form preselection or similar interaction without a separate request. The current polish is CSS only: a one-time welcome animation and modest button feedback, with reduced-motion support and no extra setup.
+
+Copy is an approved asset. Preserve the live-site wording checked October 22, including the personal senior-home message and all 36 catalog entries. Improve typography, paragraphing, spacing and navigation without silently rewriting the voice or removing towns/services. New business wording requires a separate request. The form retains phone as required and email as optional, matching the original; a blank email must not block a phone request.
 
 ## Own the correct accounts
 
@@ -50,6 +52,7 @@ Version/date/changelog every Markdown edit and update INDEX.md alongside relevan
 
 | Version | Date | Change |
 |---|---|---|
+| 1.6 | 2026-10-22 | Established approved live wording as baseline and recorded confirmed claims, complete catalog and optional email. |
 | 1.5 | 2026-10-21 | Recorded direct design-only correction; removed picker, query handoff and related maintenance guidance. |
 | 1.4 | 2026-10-21 | Documented accessible service-guide behavior, safe query selection and dependency-free motion. |
 | 1.3 | 2026-10-21 | Restored existing approved badge and made preserve-first asset handling explicit. |

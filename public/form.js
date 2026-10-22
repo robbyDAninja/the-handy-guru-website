@@ -19,11 +19,14 @@ export async function submitEstimate(fields, key, captcha, fetcher = fetch) {
     from_name: "The Handy Guru website",
     "h-captcha-response": captcha,
   };
-  for (const name of ["name", "phone", "email", "service", "message"]) {
+  for (const name of ["name", "phone", "service", "message"]) {
     const value = String(fields[name] || "").trim();
-    if (!value) throw new Error("Please complete every field before sending.");
+    if (!value)
+      throw new Error("Please complete the required fields before sending.");
     payload[name] = value;
   }
+  const email = String(fields.email || "").trim();
+  if (email) payload.email = email;
   let response;
   try {
     response = await fetcher("https://api.web3forms.com/submit", {
